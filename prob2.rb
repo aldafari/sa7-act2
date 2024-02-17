@@ -1,2 +1,4 @@
 number = [1,2,3,4,5]
-puts number
+number.each do |i|
+  puts i * 2
+end
