@@ -1,0 +1,5 @@
+words = ["Ruby", "is", "awesome"]
+
+new_words = words.map{|string| string.length}
+
+puts "#{new_words}"
