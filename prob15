@@ -1,0 +1,15 @@
+def divide_numbers(a, b)
+
+  begin ZeroDivisionError
+    if b.zero?
+      puts "Cannot divid by zero"
+      end
+  rescue ZeroDivisionError
+    a/b
+  end
+
+  puts a/b
+
+end
+divide_numbers(10,2)
+divide_numbers(10,0)
